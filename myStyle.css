@@ -1,0 +1,13 @@
+#b1 {
+  width: 50%;
+  height: 250px;
+  background-color: #000000;
+  float: left;
+  
+}
+#b2 {
+  width: 50%;
+  height: 250px;
+  background-color: #00ccff;
+  float: left;
+}

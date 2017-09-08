@@ -1,0 +1,17 @@
+<html>
+  <head></head>
+
+<body>
+  <input type="text" id="userInfo">
+  <button onclick="showName()">Click Me</button>
+  <p id="one"></p>
+  
+  <script>
+    function showName() {
+	var x = document.getElementById('userInfo').value;
+  document.getElementById('one').innerHTML = "Hello " + x;
+}
+
+
+  </script>
+</body></html>

@@ -1,0 +1,41 @@
+<html>
+  <head></head>
+  <body>
+    <script>
+      function squareNum() {
+	var x = document.getElementById('userInfo').value;
+  var z = document.getElementById('userInfo2').value;
+  
+  var y = Math.sqrt(Math.pow(x,2) + Math.pow(z,2));
+  //pythagorean theorem equation^^^
+
+  
+  document.getElementById('c').innerHTML = "C = " + y;
+  
+}
+    </script>
+    
+    <p id="a"></p>A:
+<br>
+<p></p>
+<input type="number" id="userInfo">
+<p id="b"></p>B:
+<br>
+<p></p>
+<input type="number" id="userInfo2">
+<p id="c">
+C
+</p>
+<button onclick="squareNum()">
+Show C
+</button>
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>

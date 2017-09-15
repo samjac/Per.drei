@@ -1,0 +1,30 @@
+<html>
+<head></head>
+<body>
+  <script>
+  function removeOne() {
+	var select = document.getElementById('removal').value;
+ //Select the duck in the list item and save it.
+ var removeItem = document.getElementsByTagName('li')[select];
+ 
+ //Select the containing Element. The parentNode is the <ul>
+ var containerElement = removeItem.parentNode;
+ 
+ //Remove the element
+ containerElement.removeChild(removeItem);
+  
+}
+  </script>
+  
+<input type="number" id="removal">
+<button onclick="removeOne()">
+Click Here
+</button>
+<ul>
+  <li>Bobby</li>
+  <li>Dean</li>
+  <li>Sam</li>
+</ul>
+
+</body>
+</html>

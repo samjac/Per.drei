@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script>
+      function cherryOn() {
+        document.getElementById('caption').style.visibility = "visible";
+        document.getElementById('cherry').style.transform = "rotate(45deg)";
+      }
+      function cherryOff() {
+        document.getElementById('caption').style.visibility = "hidden";
+        document.getElementById('cherry').style.transform = "rotate(0deg)";
+      }
+    </script>
+  </head>
+  <body>
+    
+    <img src="https://www.washingtonian.com/wp-content/uploads/2017/03/cherry-blossom-phases.jpg.optimal.jpg" id="cherry" width="50%" onmouseover="cherryOn()" onmouseout="cherryOff()">
+    <p id="caption">This is a cherry blossom. They are popular in Japan.</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
